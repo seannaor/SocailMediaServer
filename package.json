@@ -1,0 +1,28 @@
+{
+  "name": "social-media-server",
+  "version": "1.0.0",
+  "description": "SocialMediaServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seannaor/SocialMediaServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seannaor/SocialMediaServer/issues"
+  },
+  "homepage": "https://github.com/seannaor/SocialMediaServer#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
